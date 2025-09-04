@@ -38,3 +38,4 @@ E:\SupriyaM\dotnet_Projects\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Swashbuck
 E:\SupriyaM\dotnet_Projects\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.csproj.AssemblyReference.cache
 E:\SupriyaM\dotnet_Projects\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.MvcApplicationPartsAssemblyInfo.cs
 E:\SupriyaM\dotnet_Projects\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDe.E565A983.Up2Date
+E:\SupriyaM\dotnet_Projects\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.sourcelink.json
