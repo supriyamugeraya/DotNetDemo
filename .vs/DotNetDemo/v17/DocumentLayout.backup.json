@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Controllers\\StudentsController.cs",
               "ToolTip": "E:\\SupriyaM\\dotnet_Projects\\DotNetDemo\\DotNetDemo.API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T14:35:33.499Z",
               "EditorCaption": ""
@@ -103,8 +103,7 @@
               "RelativeToolTip": "DotNetDemo.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T15:52:56.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T15:52:56.618Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T15:51:25.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T15:51:25.347Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "DotNetDemo.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T15:47:40.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T15:47:40.71Z"
             },
             {
               "$type": "Document",
