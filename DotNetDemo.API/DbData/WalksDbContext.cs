@@ -14,3 +14,4 @@ namespace DotNetDemo.API.DbData
         public DbSet<Walk> Walks { get; set; }
     }
 }
+ 

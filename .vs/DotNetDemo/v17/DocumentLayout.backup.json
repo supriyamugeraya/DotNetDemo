@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\DbData\\WalksDbContext.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\DbData\\WalksDbContext.cs",
               "RelativeToolTip": "DotNetDemo.API\\DbData\\WalksDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T17:05:35.331Z",
               "EditorCaption": ""
@@ -100,7 +100,8 @@
               "RelativeToolTip": "DotNetDemo.API\\Models\\Domain\\Region.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T06:53:59.4Z"
+              "WhenOpened": "2025-09-05T06:53:59.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -112,7 +113,8 @@
               "RelativeToolTip": "DotNetDemo.API\\Models\\Domain\\Difficulty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T06:51:32.839Z"
+              "WhenOpened": "2025-09-05T06:51:32.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -122,9 +124,10 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAIBJwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T14:35:33.499Z"
+              "WhenOpened": "2025-09-04T14:35:33.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,9 +137,10 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Program.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Program.cs",
               "RelativeToolTip": "DotNetDemo.API\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwBEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwBEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T15:53:04.368Z"
+              "WhenOpened": "2025-09-03T15:53:04.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -148,7 +152,8 @@
               "RelativeToolTip": "DotNetDemo.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T15:52:56.618Z"
+              "WhenOpened": "2025-09-03T15:52:56.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,7 +165,8 @@
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T15:51:25.347Z"
+              "WhenOpened": "2025-09-03T15:51:25.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -172,7 +178,8 @@
               "RelativeToolTip": "DotNetDemo.API\\DotNetDemo.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T15:47:16.542Z"
+              "WhenOpened": "2025-09-03T15:47:16.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -184,7 +191,8 @@
               "RelativeToolTip": "DotNetDemo.API\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T06:29:30.967Z"
+              "WhenOpened": "2025-09-04T06:29:30.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -196,7 +204,8 @@
               "RelativeToolTip": "DotNetDemo.API\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T08:43:36.507Z"
+              "WhenOpened": "2025-09-04T08:43:36.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -208,7 +217,8 @@
               "RelativeToolTip": "DotNetDemo.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T15:47:40.71Z"
+              "WhenOpened": "2025-09-03T15:47:40.71Z",
+              "EditorCaption": ""
             }
           ]
         }
