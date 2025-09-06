@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DotNetDemo.API",
+    "\\DotNetDemo.API\\bin",
+    "\\DotNetDemo.API\\Data",
+    "\\DotNetDemo.API\\Models",
+    "\\DotNetDemo.API\\Models\\Domain",
+    "\\DotNetDemo.API\\Views",
+    "\\DotNetDemo.API\\wwwroot"
+  ],
+  "SelectedNode": "\\DotNetDemo.API\\Models\\Domain\\Walk.cs",
+  "PreviewInSolutionExplorer": false
+}
