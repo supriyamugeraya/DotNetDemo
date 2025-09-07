@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "DotNetDemo.API.Controllers.RegionController",
+    "Method": "Create",
+    "RelativePath": "api/Region",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addRegionRequestDto",
+        "Type": "DotNetDemo.API.Models.DTO.AddRegionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetDemo.API.Controllers.RegionController",
     "Method": "GetById",
     "RelativePath": "api/Region/{id}",
     "HttpMethod": "GET",
