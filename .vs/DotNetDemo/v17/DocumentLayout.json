@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\DotNetProject\\DotNetDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\repositories\\sqlregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\repositories\\sqlregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,29 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T14:20:11.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Program.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Program.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Program.cs",
               "RelativeToolTip": "DotNetDemo.API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T09:09:35.763Z",
               "EditorCaption": ""
@@ -56,38 +57,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQLRegionRepository.cs",
-              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\SQLRegionRepository.cs",
-              "RelativeDocumentMoniker": "DotNetDemo.API\\Repositories\\SQLRegionRepository.cs",
-              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\SQLRegionRepository.cs",
-              "RelativeToolTip": "DotNetDemo.API\\Repositories\\SQLRegionRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T09:04:14.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRegionRepository.cs",
-              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\IRegionRepository.cs",
-              "RelativeDocumentMoniker": "DotNetDemo.API\\Repositories\\IRegionRepository.cs",
-              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\IRegionRepository.cs",
-              "RelativeToolTip": "DotNetDemo.API\\Repositories\\IRegionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T09:00:11.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAmwKoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-06T15:51:26.727Z",
               "EditorCaption": ""

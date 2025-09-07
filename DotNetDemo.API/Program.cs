@@ -1,4 +1,5 @@
 using DotNetDemo.API.DbData;
+using DotNetDemo.API.Mappings;
 using DotNetDemo.API.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,7 @@ builder.Services.AddDbContext<WalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DotNetDemoConnectionString")));
 
 builder.Services.AddScoped<IRegionRepository,SQLRegionRepository>();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 
 var app = builder.Build();

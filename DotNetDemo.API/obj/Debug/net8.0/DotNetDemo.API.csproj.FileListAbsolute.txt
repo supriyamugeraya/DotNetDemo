@@ -191,3 +191,5 @@ C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\refint\DotNetDemo.AP
 C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.pdb
 C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.genruntimeconfig.cache
 C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\ref\DotNetDemo.API.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\AutoMapper.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
