@@ -55,7 +55,7 @@
         "IsRequired": true
       },
       {
-        "Name": "updateRegionRequest",
+        "Name": "updateRegionRequestDto",
         "Type": "DotNetDemo.API.Models.DTO.UpdateRegionrRquest",
         "IsRequired": true
       }
