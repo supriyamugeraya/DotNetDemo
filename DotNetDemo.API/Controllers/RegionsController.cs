@@ -1,6 +1,7 @@
 ﻿using DotNetDemo.API.DbData;
 using DotNetDemo.API.Models.Domain;
 using DotNetDemo.API.Models.DTO;
+using DotNetDemo.API.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,9 +15,12 @@ namespace DotNetDemo.API.Controllers
     public class RegionController : ControllerBase
     {
         private readonly WalksDbContext dbContext;
-        public RegionController(WalksDbContext dbContext)
+        private readonly IRegionRepository regionRepository;
+
+        public RegionController(WalksDbContext dbContext,IRegionRepository regionRepository)
         {
             this.dbContext = dbContext;
+            this.regionRepository = regionRepository;
         }
 
 
@@ -27,7 +31,7 @@ namespace DotNetDemo.API.Controllers
          public async Task<IActionResult> GetAll()
         {
             // Get Data From Database - Domain models
-            var regionsDomain = await dbContext.Regions.ToListAsync(); 
+            var regionsDomain = await regionRepository.GetAllAsync(); 
 
             // Map Domain Models to DTOs
             var regionsDto=new List<RegionDto>();

@@ -1,4 +1,5 @@
 using DotNetDemo.API.DbData;
+using DotNetDemo.API.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +9,13 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<WalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DotNetDemoConnectionString")));
+
+builder.Services.AddScoped<IRegionRepository,SQLRegionRepository>();
+
+
 var app = builder.Build();
 
 
