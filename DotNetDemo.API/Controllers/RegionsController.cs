@@ -1,5 +1,6 @@
 ﻿using DotNetDemo.API.DbData;
 using DotNetDemo.API.Models.Domain;
+using DotNetDemo.API.Models.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,9 +25,25 @@ namespace DotNetDemo.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+            // Get Data From Database - Domain models
+            var regionsDomain=dbContext.Regions.ToList();
 
-            var regions = dbContext.Regions.ToList();
-            return Ok(regions);
+            // Map Domain Models to DTOs
+            var regionsDto=new List<RegionDto>();
+            foreach (var regionDomain in regionsDomain) 
+            {
+                regionsDto.Add(new RegionDto()
+                {
+                    Id = regionDomain.Id,
+                    Code = regionDomain.Code,
+                    Name = regionDomain.Name,
+                    RegionImageUrl = regionDomain.RegionImageUrl
+                });
+
+              }
+
+            //Return DTOs
+            return Ok(regionsDto);
 
         }
 
@@ -37,12 +54,23 @@ namespace DotNetDemo.API.Controllers
         public IActionResult GetById([FromRoute] Guid id) 
         {
             //var region=dbContext.Regions.Find(id);
-            var region = dbContext.Regions.FirstOrDefault(x => x.Id == id);
-            if (region == null)
+            //Get Region Domain model from database
+            var regionDomain = dbContext.Regions.FirstOrDefault(x => x.Id == id);
+            if (regionDomain == null)
             {
                 return NotFound();
             }
-            return Ok(region);
+
+            //Map/Convert Region Doamin Model to DTO
+            var regionsDto = new RegionDto
+            {
+                Id = regionDomain.Id,
+                Code = regionDomain.Code,
+                Name = regionDomain.Name,
+                RegionImageUrl = regionDomain.RegionImageUrl
+            };
+            //Return DTO back to Client
+            return Ok(regionsDto);
         }
     }
 }
