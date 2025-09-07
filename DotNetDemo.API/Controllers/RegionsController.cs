@@ -84,7 +84,7 @@ namespace DotNetDemo.API.Controllers
         //PUT :https://localhost:7032/api/regions/{id}
         [HttpPut]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody] UpdateRegionrRquestDto updateRegionRequestDto)
+        public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
 
             //Map DTO to Domain Model

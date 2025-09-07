@@ -87,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateRegionrRquest"
+                "$ref": "#/components/schemas/UpdateRegionRequestDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateRegionrRquest"
+                "$ref": "#/components/schemas/UpdateRegionRequestDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateRegionrRquest"
+                "$ref": "#/components/schemas/UpdateRegionRequestDto"
               }
             }
           }
@@ -202,7 +202,7 @@
         },
         "additionalProperties": false
       },
-      "UpdateRegionrRquest": {
+      "UpdateRegionRequestDto": {
         "type": "object",
         "properties": {
           "code": {

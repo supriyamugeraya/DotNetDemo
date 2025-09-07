@@ -56,7 +56,7 @@
       },
       {
         "Name": "updateRegionRequestDto",
-        "Type": "DotNetDemo.API.Models.DTO.UpdateRegionrRquest",
+        "Type": "DotNetDemo.API.Models.DTO.UpdateRegionRequestDto",
         "IsRequired": true
       }
     ],
