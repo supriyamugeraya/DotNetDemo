@@ -42,6 +42,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DotNetDemo.API.Controllers.RegionController",
+    "Method": "Update",
+    "RelativePath": "api/Region/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRegionRequest",
+        "Type": "DotNetDemo.API.Models.DTO.UpdateRegionrRquest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotNetDemo.API.Controllers.StudentsController",
     "Method": "GetAllStudents",
     "RelativePath": "api/Students",

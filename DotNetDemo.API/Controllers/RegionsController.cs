@@ -102,6 +102,40 @@ namespace DotNetDemo.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto);
         }
 
+        //Update Region 
+        //PUT :https://localhost:7032/api/regions/{id}
+        [HttpPut]
+        [Route("{id:Guid}")]
+        public IActionResult Update([FromRoute]Guid id, [FromBody] UpdateRegionrRquest updateRegionRequest)
+        {
+            var regionDomainmodel=dbContext.Regions.FirstOrDefault(x=>x.Id==id);
+            if (regionDomainmodel == null)
+            {
+                return NotFound();
+
+            }
+            //Map DTO to Domain Model
+            regionDomainmodel.Code = updateRegionRequest.Code;
+            regionDomainmodel.Name=updateRegionRequest.Name;
+            regionDomainmodel.RegionImageUrl = updateRegionRequest.RegionImageUrl;
+
+            dbContext.SaveChanges();
+
+
+            //Convert Domain Model to Dto
+            var regionDto = new Region
+            {
+                Id = regionDomainmodel.Id,
+                Code = regionDomainmodel.Code,
+                Name = regionDomainmodel.Name,
+                RegionImageUrl = regionDomainmodel.RegionImageUrl
+            };
+
+            return Ok(regionDto);
+
+
+        }
+
     }
 }
 
