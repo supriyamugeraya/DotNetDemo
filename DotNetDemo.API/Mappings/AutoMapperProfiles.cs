@@ -9,8 +9,8 @@ namespace DotNetDemo.API.Mappings
         public AutoMapperProfiles()
         {
             CreateMap<Region,RegionDto>().ReverseMap();
-            CreateMap<AddRegionRequestDto,RegionDto>().ReverseMap();
-            CreateMap<UpdateRegionrRquestDto,Region>().ReverseMap();
+            CreateMap<AddRegionRequestDto,Region>().ReverseMap();
+            CreateMap<UpdateRegionRequestDto,Region>().ReverseMap();
         }
 
     }
