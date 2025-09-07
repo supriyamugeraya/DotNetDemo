@@ -136,6 +136,37 @@ namespace DotNetDemo.API.Controllers
 
         }
 
+
+        //Delete Region
+        //DELETE: https://localhost:7032/api/regions/{id}
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public IActionResult Delete([FromRoute] Guid id)
+        {
+            var regionDomainModel = dbContext.Regions.FirstOrDefault(x => x.Id == id);  
+            if (regionDomainModel == null)
+            {
+                return NotFound();
+            }
+
+            //Delete the region
+            dbContext.Regions.Remove(regionDomainModel);
+            dbContext.SaveChanges();
+            //return the deleted region back
+            
+            //Map Domain model back to DTO
+
+            var regionDto = new RegionDto
+            {
+                Id = regionDomainModel.Id,
+                Code = regionDomainModel.Code,
+                Name = regionDomainModel.Name,
+                RegionImageUrl = regionDomainModel.RegionImageUrl
+
+            };
+            return Ok(regionDto);
+        }
+
     }
 }
 
