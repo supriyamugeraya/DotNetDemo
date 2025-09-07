@@ -30,45 +30,20 @@ namespace DotNetDemo.API.Controllers
 
         }
 
-
+        // Get Single region (get region by id)
+        //GET:https://localhost:7032/api/regions//GET 
+        [HttpGet]
+        [Route("{id:Guid}")]
+        public IActionResult GetById([FromRoute] Guid id) 
+        {
+            //var region=dbContext.Regions.Find(id);
+            var region = dbContext.Regions.FirstOrDefault(x => x.Id == id);
+            if (region == null)
+            {
+                return NotFound();
+            }
+            return Ok(region);
+        }
     }
-
-    
-
-
 }
-
-
-
-//Hard coded list for controller and Action method.
-
-//public class RegionsController : ControllerBase
-//{
-//    //GET ALL REGIONS 
-//    //GET:https://localhost:7032/api/regions
-//    [HttpGet]
-//    public IActionResult GetAll()
-//    {
-//        var regions = new List<Region>
-//        {
-//            new Region
-//            {
-//                Id = Guid.NewGuid(),
-//                Name = "Auckland region",
-//                Code = "AKL",
-//                RegionImageUrl = "https://www.pexels.com/photo/sunset-over-coconut-palms-by-the-ocean-in-thailand-31953957/"
-//            },
-
-//            new Region
-//            {
-//                Id = Guid.NewGuid(),
-//                Name = "Wellington region",
-//                Code = "WLG",
-//                RegionImageUrl = "https://www.pexels.com/photo/charming-rooftop-view-of-caen-normandy-32429483/"
-//            }
-
-//        };
-//        return Ok(regions);
-
-//}
 
