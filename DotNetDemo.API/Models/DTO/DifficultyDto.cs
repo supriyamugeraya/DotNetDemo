@@ -1,10 +1,8 @@
-﻿namespace DotNetDemo.API.Models.Domain
+﻿namespace DotNetDemo.API.Models.DTO
 {
-    public class Difficulty
+    public class DifficultyDto
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-
-
     }
 }
