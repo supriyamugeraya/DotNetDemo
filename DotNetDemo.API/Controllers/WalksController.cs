@@ -67,5 +67,30 @@ namespace DotNetDemo.API.Controllers
             }
             return Ok(mapper.Map<WalkDto>(walkDomainModel));
         }
+
+
+        //Update Walk By Id
+
+        //PUT: /api/Walks/{id}
+
+        [HttpPut]
+        [Route("{id:Guid}")]
+
+        public async Task<IActionResult> Update([FromRoute] Guid id, UpdateWalkRequestDto updateWalkRequestDto)
+        {
+            {
+                //map DTO to Domain Model
+                var walkDomainModel=mapper.Map<Walk>(updateWalkRequestDto);
+
+                walkDomainModel= await walkRepository.UpdateAsync(id,walkDomainModel);
+                if(walkDomainModel == null)
+                {
+                    return NotFound();
+                }
+
+                //Map Domain Model To DTO
+                return Ok(mapper.Map<WalkDto>(walkDomainModel));
+            }
+        }
     }
 }
