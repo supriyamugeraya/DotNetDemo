@@ -68,16 +68,26 @@ namespace DotNetDemo.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
-            //Map or convert DTO into Domain Model
-            var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
-            
-            regionDomainModel = await regionRepository.CreateAsync(regionDomainModel);
 
-            //Map Domain model back to DTO
+            if( ModelState.IsValid)
+            {
+                //Map or convert DTO into Domain Model
+                var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
 
-            var regionDto = mapper.Map<RegionDto>(regionDomainModel);
-            return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto);
+                regionDomainModel = await regionRepository.CreateAsync(regionDomainModel);
+
+                //Map Domain model back to DTO
+
+                var regionDto = mapper.Map<RegionDto>(regionDomainModel);
+                return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto);
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+
         }
+
 
 
         //Update Region 
@@ -86,22 +96,31 @@ namespace DotNetDemo.API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
+            if (ModelState.IsValid) {
+                
+                //Map DTO to Domain Model
+                var regionDomainModel = mapper.Map<Region>(updateRegionRequestDto);
+                //Check if region Exsists
+                regionDomainModel = await regionRepository.UpdateAsync(id, regionDomainModel);
 
-            //Map DTO to Domain Model
-            var regionDomainModel =mapper.Map<Region>(updateRegionRequestDto);
-            //Check if region Exsists
-            regionDomainModel= await regionRepository.UpdateAsync(id, regionDomainModel);
-            
-            if (regionDomainModel == null)
-            {
-                return NotFound();
+                if (regionDomainModel == null)
+                {
+                    return NotFound();
+
+                }
+
+                return Ok(mapper.Map<RegionDto>(regionDomainModel));
+
 
             }
-
-            return Ok(mapper.Map<RegionDto>(regionDomainModel));
-
+            else
+            {
+                return BadRequest(ModelState);
+            }
 
         }
+
+            
 
 
         //Delete Region

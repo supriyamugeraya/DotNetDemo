@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\DotNetProject\\DotNetDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +42,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "AddRegionRequestDto.cs",
+              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "RelativeDocumentMoniker": "DotNetDemo.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "RelativeToolTip": "DotNetDemo.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:49:15.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegionsController.cs",
+              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\RegionsController.cs",
+              "RelativeDocumentMoniker": "DotNetDemo.API\\Controllers\\RegionsController.cs",
+              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "DotNetDemo.API\\Controllers\\RegionsController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwE4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:47:58.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Walk.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Models\\Domain\\Walk.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Models\\Domain\\Walk.cs",
@@ -46,16 +84,11 @@
               "RelativeToolTip": "DotNetDemo.API\\Models\\Domain\\Walk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T05:30:38.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-09-08T05:30:38.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UpdateWalkRequestDto.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
@@ -63,51 +96,48 @@
               "RelativeToolTip": "DotNetDemo.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T05:30:26.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T05:30:26.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SQLWalkRepository.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
               "RelativeToolTip": "DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:48:15.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T18:48:15.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WalksController.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\WalksController.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Controllers\\WalksController.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\WalksController.cs",
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T18:31:04.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IWalkRepository.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\IWalkRepository.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Repositories\\IWalkRepository.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\IWalkRepository.cs",
               "RelativeToolTip": "DotNetDemo.API\\Repositories\\IWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:46:34.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T18:46:34.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
@@ -115,8 +145,11 @@
               "RelativeToolTip": "DotNetDemo.API\\Mappings\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:42:22.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T18:42:22.735Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
