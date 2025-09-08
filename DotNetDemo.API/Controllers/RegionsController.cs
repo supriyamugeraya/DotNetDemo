@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DotNetDemo.API.CustomActionFilters;
 using DotNetDemo.API.DbData;
 using DotNetDemo.API.Models.Domain;
 using DotNetDemo.API.Models.DTO;
@@ -19,7 +20,7 @@ namespace DotNetDemo.API.Controllers
         private readonly IRegionRepository regionRepository;
         private readonly IMapper mapper;
 
-        public RegionController(WalksDbContext dbContext,IRegionRepository regionRepository,IMapper mapper)
+        public RegionController(WalksDbContext dbContext, IRegionRepository regionRepository, IMapper mapper)
         {
             this.dbContext = dbContext;
             this.regionRepository = regionRepository;
@@ -30,14 +31,14 @@ namespace DotNetDemo.API.Controllers
         //GET:https://localhost:7032/api/regions
 
         [HttpGet]
-         public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll()
         {
             // Get Data From Database - Domain models
             var regionsDomain = await regionRepository.GetAllAsync();
 
 
             // Map Domain Models to DTOs
-            var regionsDto= mapper.Map<List<RegionDto>>(regionsDomain);
+            var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
 
             //Return DTOs
             return Ok(regionsDto);
@@ -48,7 +49,7 @@ namespace DotNetDemo.API.Controllers
         //GET:https://localhost:7032/api/regions/{id}
         [HttpGet]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> GetById([FromRoute] Guid id) 
+        public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             //var region=dbContext.Regions.Find(id);
             //Get Region Domain model from database
@@ -62,15 +63,15 @@ namespace DotNetDemo.API.Controllers
             return Ok(mapper.Map<RegionDto>(regionDomain));
         }
 
-        
+
         //POST TO Create New Region
         //POST:https://localhost:7032/api/regions
         [HttpPost]
+        [ValidateModel]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
 
-            if( ModelState.IsValid)
-            {
+            
                 //Map or convert DTO into Domain Model
                 var regionDomainModel = mapper.Map<Region>(addRegionRequestDto);
 
@@ -80,11 +81,7 @@ namespace DotNetDemo.API.Controllers
 
                 var regionDto = mapper.Map<RegionDto>(regionDomainModel);
                 return CreatedAtAction(nameof(GetById), new { id = regionDto.Id }, regionDto);
-            }
-            else
-            {
-                return BadRequest(ModelState);
-            }
+            
 
         }
 
@@ -94,9 +91,10 @@ namespace DotNetDemo.API.Controllers
         //PUT :https://localhost:7032/api/regions/{id}
         [HttpPut]
         [Route("{id:Guid}")]
+        [ValidateModel]
         public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
-            if (ModelState.IsValid) {
+            
                 
                 //Map DTO to Domain Model
                 var regionDomainModel = mapper.Map<Region>(updateRegionRequestDto);
@@ -111,12 +109,6 @@ namespace DotNetDemo.API.Controllers
 
                 return Ok(mapper.Map<RegionDto>(regionDomainModel));
 
-
-            }
-            else
-            {
-                return BadRequest(ModelState);
-            }
 
         }
 

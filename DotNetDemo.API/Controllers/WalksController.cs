@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DotNetDemo.API.CustomActionFilters;
 using DotNetDemo.API.Models.Domain;
 using DotNetDemo.API.Models.DTO;
 using DotNetDemo.API.Repositories;
@@ -26,10 +27,10 @@ namespace DotNetDemo.API.Controllers
         //POST:/Api/walks
 
         [HttpPost]
+        [ValidateModel]
         public async Task<IActionResult> Create([FromBody] AddWalkRequestDto addWalkRequestDto)
         {
-            if (ModelState.IsValid)
-            {
+           
                 //Map DTO TO Domain Model
                 var WalkDomainModel = mapper.Map<Walk>(addWalkRequestDto);
                 await walkRepository.CreateAsync(WalkDomainModel);
@@ -37,13 +38,6 @@ namespace DotNetDemo.API.Controllers
                 //Map Domain Model to DTO
 
                 return Ok(mapper.Map<WalkDto>(WalkDomainModel));
-
-
-            }
-            else
-            {
-                return BadRequest(ModelState);
-            }
         }
 
 
@@ -83,12 +77,9 @@ namespace DotNetDemo.API.Controllers
 
         [HttpPut]
         [Route("{id:Guid}")]
-
+        [ValidateModel]
         public async Task<IActionResult> Update([FromRoute] Guid id, UpdateWalkRequestDto updateWalkRequestDto)
         {
-            if (ModelState.IsValid)
-            {
-                {
                     //map DTO to Domain Model
                     var walkDomainModel = mapper.Map<Walk>(updateWalkRequestDto);
 
@@ -100,12 +91,7 @@ namespace DotNetDemo.API.Controllers
 
                     //Map Domain Model To DTO
                     return Ok(mapper.Map<WalkDto>(walkDomainModel));
-                }
-            }
-            else
-            {
-                return BadRequest(ModelState);
-            }
+                
         }
 
         //delete a walk id
