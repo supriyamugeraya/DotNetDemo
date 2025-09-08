@@ -38,5 +38,16 @@ namespace DotNetDemo.API.Controllers
 
 
          }
+
+        //Get Walks
+        //GET: /api/walks
+        [HttpGet]
+        public async Task<IActionResult> GetAllAsync()
+        {
+           var walkDomainModel= await walkRepository.GetAllAsync();
+
+            //Map Domain Model to DTO
+            return Ok(mapper.Map<List<WalkDto>>(walkDomainModel));
+        }
     }
 }

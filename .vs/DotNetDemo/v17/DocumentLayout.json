@@ -25,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|c:\\dotnetproject\\dotnetdemo\\dotnetdemo.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4467CB03-9F3F-41F3-9766-90C4EA68E5E0}|DotNetDemo.API\\DotNetDemo.API.csproj|solutionrelative:dotnetdemo.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +34,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -52,22 +52,9 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Models\\DTO\\WalkDto.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Models\\DTO\\WalkDto.cs",
               "RelativeToolTip": "DotNetDemo.API\\Models\\DTO\\WalkDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T18:58:41.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Program.cs",
-              "RelativeDocumentMoniker": "DotNetDemo.API\\Program.cs",
-              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Program.cs",
-              "RelativeToolTip": "DotNetDemo.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:52:30.11Z",
               "EditorCaption": ""
             },
             {
@@ -78,7 +65,7 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
               "RelativeToolTip": "DotNetDemo.API\\Repositories\\SQLWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T18:48:15.899Z",
               "EditorCaption": ""
@@ -91,7 +78,7 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Repositories\\IWalkRepository.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Repositories\\IWalkRepository.cs",
               "RelativeToolTip": "DotNetDemo.API\\Repositories\\IWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T18:46:34.21Z",
               "EditorCaption": ""
@@ -119,8 +106,7 @@
               "RelativeToolTip": "DotNetDemo.API\\Models\\Domain\\Walk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:36:46.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T18:36:46.301Z"
             },
             {
               "$type": "Document",
@@ -130,27 +116,10 @@
               "RelativeDocumentMoniker": "DotNetDemo.API\\Controllers\\WalksController.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Controllers\\WalksController.cs",
               "RelativeToolTip": "DotNetDemo.API\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAjwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T18:31:04.94Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Dockerfile",
-              "RelativeDocumentMoniker": "DotNetDemo.API\\Dockerfile",
-              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\DotNetDemo.API\\Dockerfile",
-              "RelativeToolTip": "DotNetDemo.API\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-07T18:26:51.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

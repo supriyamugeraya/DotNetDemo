@@ -1,5 +1,6 @@
 ﻿using DotNetDemo.API.DbData;
 using DotNetDemo.API.Models.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace DotNetDemo.API.Repositories
 {
@@ -16,6 +17,11 @@ namespace DotNetDemo.API.Repositories
             await dbContext.Walks.AddAsync(walk);
             await dbContext.SaveChangesAsync();
             return walk;
+        }
+
+        public async Task<List<Walk>> GetAllAsync()
+        {
+            return await dbContext.Walks.ToListAsync();
         }
     }
 }

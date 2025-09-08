@@ -105,6 +105,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DotNetDemo.API.Controllers.WalksController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Walks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotNetDemo.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
