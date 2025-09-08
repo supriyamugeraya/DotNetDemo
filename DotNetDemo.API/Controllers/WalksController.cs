@@ -42,11 +42,11 @@ namespace DotNetDemo.API.Controllers
 
 
         //Get Walks
-        //GET: /api/walks
+        //GET: /api/walks?filterOn=Name&filterQuery=Track
         [HttpGet]
-        public async Task<IActionResult> GetAllAsync()
+        public async Task<IActionResult> GetAllAsync([FromQuery]string? filterOn, [FromQuery]string?filterQuery)
         {
-           var walkDomainModel= await walkRepository.GetAllAsync();
+           var walkDomainModel= await walkRepository.GetAllAsync(filterOn,filterQuery);
 
             //Map Domain Model to DTO
             return Ok(mapper.Map<List<WalkDto>>(walkDomainModel));
