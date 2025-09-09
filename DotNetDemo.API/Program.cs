@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.FileProviders;
 internal class Program
 {
     private static void Main(string[] args)
@@ -119,6 +120,13 @@ internal class Program
 
         app.UseAuthentication();
         app.UseAuthorization();
+
+        app.UseStaticFiles(new StaticFileOptions
+        {
+            FileProvider=new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),"Images")),
+            RequestPath="/Images"
+            //https://Localhost:1234/Images
+        });
 
         app.MapControllerRoute(
             name: "default",
