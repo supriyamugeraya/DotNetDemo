@@ -15,7 +15,7 @@ namespace DotNetDemo.API.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class RegionController : ControllerBase
     {
         private readonly WalksDbContext dbContext;
@@ -33,6 +33,7 @@ namespace DotNetDemo.API.Controllers
         //GET:https://localhost:7032/api/regions
 
         [HttpGet]
+        [Authorize(Roles ="Reader")]
         public async Task<IActionResult> GetAll()
         {
             // Get Data From Database - Domain models
@@ -51,6 +52,7 @@ namespace DotNetDemo.API.Controllers
         //GET:https://localhost:7032/api/regions/{id}
         [HttpGet]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             //var region=dbContext.Regions.Find(id);
@@ -70,6 +72,7 @@ namespace DotNetDemo.API.Controllers
         //POST:https://localhost:7032/api/regions
         [HttpPost]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
 
@@ -93,6 +96,7 @@ namespace DotNetDemo.API.Controllers
         //PUT :https://localhost:7032/api/regions/{id}
         [HttpPut]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         [ValidateModel]
         public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
@@ -119,6 +123,7 @@ namespace DotNetDemo.API.Controllers
         //DELETE: https://localhost:7032/api/regions/{id}
         [HttpDelete]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var regionDomainModel=await regionRepository.DeleteAsync(id);
