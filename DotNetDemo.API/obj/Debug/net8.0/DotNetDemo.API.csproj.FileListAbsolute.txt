@@ -193,3 +193,12 @@ C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\refint\DotNetDemo.AP
 C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.pdb
 C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\DotNetDemo.API.genruntimeconfig.cache
 C:\DotNetProject\DotNetDemo\DotNetDemo.API\obj\Debug\net8.0\ref\DotNetDemo.API.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\DotNetProject\DotNetDemo\DotNetDemo.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.FileProviders;
+using Serilog;
 internal class Program
 {
     private static void Main(string[] args)
@@ -15,6 +16,15 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+
+
+        var logger = new LoggerConfiguration()
+            .WriteTo.Console()
+            .MinimumLevel.Warning()
+            .CreateLogger();
+        builder.Logging.ClearProviders();
+        builder.Logging.AddSerilog(logger);
+
         builder.Services.AddControllers();
         builder.Services.AddHttpContextAccessor();
 
