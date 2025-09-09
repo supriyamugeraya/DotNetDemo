@@ -50,7 +50,8 @@ namespace DotNetDemo.API.Controllers
         {
            var walkDomainModel= await walkRepository.GetAllAsync(filterOn,filterQuery,sortBy,
                isAscending??true,pageNumber,pageSize);
-
+            // Create an exception
+            throw new Exception("This is a new Exception");
             //Map Domain Model to DTO
             return Ok(mapper.Map<List<WalkDto>>(walkDomainModel));
         }

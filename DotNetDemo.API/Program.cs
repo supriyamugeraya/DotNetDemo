@@ -9,6 +9,8 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.FileProviders;
 using Serilog;
+using Microsoft.AspNetCore.Diagnostics;
+using DotNetDemo.API.Middlewares;
 internal class Program
 {
     private static void Main(string[] args)
@@ -122,6 +124,7 @@ internal class Program
             app.UseSwaggerUI();
 
         }
+        app.UseMiddleware<ExceptionhandlerMiddleware>();
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
