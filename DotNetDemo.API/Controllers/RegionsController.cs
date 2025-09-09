@@ -4,6 +4,7 @@ using DotNetDemo.API.DbData;
 using DotNetDemo.API.Models.Domain;
 using DotNetDemo.API.Models.DTO;
 using DotNetDemo.API.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ namespace DotNetDemo.API.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RegionController : ControllerBase
     {
         private readonly WalksDbContext dbContext;

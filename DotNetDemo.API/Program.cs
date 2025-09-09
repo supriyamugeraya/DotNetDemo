@@ -15,6 +15,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<WalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DotNetDemoConnectionString")));
+builder.Services.AddDbContext<WalksAuthDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("WalksAuthConnectionString")));
 
 builder.Services.AddScoped<IRegionRepository,SQLRegionRepository>();
 builder.Services.AddScoped<IWalkRepository,SQLWalkRepository>();
