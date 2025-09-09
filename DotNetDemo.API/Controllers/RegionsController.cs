@@ -114,8 +114,6 @@ namespace DotNetDemo.API.Controllers
 
         }
 
-            
-
 
         //Delete Region
         //DELETE: https://localhost:7032/api/regions/{id}
