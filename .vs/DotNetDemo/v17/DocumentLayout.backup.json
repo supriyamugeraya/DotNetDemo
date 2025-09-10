@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\DotNetProject\\DotNetDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|c:\\dotnetproject\\dotnetdemo\\walks.ui\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|solutionrelative:walks.ui\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|c:\\dotnetproject\\dotnetdemo\\walks.ui\\views\\regions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|solutionrelative:walks.ui\\views\\regions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|c:\\dotnetproject\\dotnetdemo\\walks.ui\\views\\regions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|solutionrelative:walks.ui\\views\\regions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|c:\\dotnetproject\\dotnetdemo\\walks.ui\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|solutionrelative:walks.ui\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{059B66D5-705D-41EC-97D1-A77406BAC0C4}|Walks.UI\\Walks.UI.csproj|c:\\dotnetproject\\dotnetdemo\\walks.ui\\models\\addregionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,24 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Program.cs",
-              "RelativeDocumentMoniker": "Walks.UI\\Program.cs",
-              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Program.cs",
-              "RelativeToolTip": "Walks.UI\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T15:36:08.49Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -89,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Views\\Regions\\Index.cshtml",
               "RelativeDocumentMoniker": "Walks.UI\\Views\\Regions\\Index.cshtml",
@@ -115,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Views\\Regions\\Add.cshtml",
               "RelativeDocumentMoniker": "Walks.UI\\Views\\Regions\\Add.cshtml",
@@ -128,33 +119,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Views\\Regions\\Edit.cshtml",
               "RelativeDocumentMoniker": "Walks.UI\\Views\\Regions\\Edit.cshtml",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Views\\Regions\\Edit.cshtml",
               "RelativeToolTip": "Walks.UI\\Views\\Regions\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-10T15:31:33.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "Walks.UI\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "Walks.UI\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwFIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAcwGQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T08:31:15.177Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Walks.UI\\Program.cs",
+              "ToolTip": "C:\\DotNetProject\\DotNetDemo\\Walks.UI\\Program.cs",
+              "RelativeToolTip": "Walks.UI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:36:08.49Z",
+              "EditorCaption": ""
             }
           ]
         }
