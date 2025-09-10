@@ -40,29 +40,13 @@ namespace DotNetDemo.API.Controllers
         //[Authorize(Roles ="Reader")]
         public async Task<IActionResult> GetAll()
         {
-            try
-            {
-                throw new Exception("This is a custom exception");
-                //logger.LogInformation("GetAllRegion Action Method was Invoked");
-                //logger.LogWarning("This is a Warning log");
-                //logger.LogError("This is a Error log");
-                // Get Data From Database - Domain models
+                   // get data from datbase domain model.
                 var regionsDomain = await regionRepository.GetAllAsync();
-
-
-                // Map Domain Models to DTOs
-                //var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
-
-                //Return DTOs
-                logger.LogInformation($"Finished GetAllRegions request with data:{JsonSerializer.Serialize(regionsDomain)}");
+               
+                 //Return DTOs
+               
                 return Ok(mapper.Map<List<RegionDto>>(regionsDomain));
-            }
-            catch (Exception ex) {
-                logger.LogError(ex, ex.Message);
-                throw;
-
-            }
-            
+                  
 
         }
 
