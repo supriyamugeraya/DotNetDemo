@@ -70,7 +70,7 @@ namespace DotNetDemo.API.Controllers
         //GET:https://localhost:7032/api/regions/{id}
         [HttpGet]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             //var region=dbContext.Regions.Find(id);
@@ -90,7 +90,7 @@ namespace DotNetDemo.API.Controllers
         //POST:https://localhost:7032/api/regions
         [HttpPost]
         [ValidateModel]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
 
@@ -114,7 +114,7 @@ namespace DotNetDemo.API.Controllers
         //PUT :https://localhost:7032/api/regions/{id}
         [HttpPut]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         [ValidateModel]
         public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
@@ -141,7 +141,7 @@ namespace DotNetDemo.API.Controllers
         //DELETE: https://localhost:7032/api/regions/{id}
         [HttpDelete]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer,Reader")]
+        //[Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var regionDomainModel=await regionRepository.DeleteAsync(id);
